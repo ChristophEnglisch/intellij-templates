@@ -1,0 +1,14 @@
+package ${PACKAGE_NAME};
+
+import lombok.Getter;
+
+@Getter
+@org.jmolecules.ddd.annotation.AggregateRoot
+public class ${NAME} {
+
+    private final ${NAME}Id id;
+
+    public ${NAME}(${NAME}Id id) {
+        this.id = id;
+    }
+}
