@@ -3,7 +3,7 @@ package ${PACKAGE_NAME};
 import java.util.Collection;
 
 @org.jmolecules.ddd.annotation.Repository
-public interface ${AGGREGATE_NAME}ReadRepository {
-    Collection<${AGGREGATE_NAME}> findAll();
-    ${AGGREGATE_NAME} findById(${AGGREGATE_NAME}Id ${AGGREGATE_NAME.toLowerCase()}Id);
+public interface ${NAME}ReadRepository {
+    Collection<${NAME}> findAll();
+    ${NAME} findById(${NAME}Id ${NAME.toLowerCase()}Id);
 }

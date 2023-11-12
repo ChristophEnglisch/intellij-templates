@@ -1,5 +1,5 @@
 package ${PACKAGE_NAME};
 
 @org.jmolecules.ddd.annotation.ValueObject
-public record ${AGGREGATE_NAME}Id(String id) {
+public record ${NAME}Id(String id) {
 }

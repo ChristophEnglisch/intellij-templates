@@ -1,6 +1,6 @@
 package ${PACKAGE_NAME};
 
 @org.jmolecules.ddd.annotation.Repository
-public interface ${AGGREGATE_NAME}WriteRepository {
-    void save(${AGGREGATE_NAME} ${AGGREGATE_NAME.toLowerCase()});
+public interface ${NAME}WriteRepository {
+    void save(${NAME} ${NAME.toLowerCase()});
 }
